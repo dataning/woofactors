@@ -1,5 +1,7 @@
 ---
-output: github_document
+output:
+    md_document:
+    variant: markdown_github
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -35,7 +37,7 @@ devtools::install_github("jennybc/woofactors")
 Binding two factors via `fbind()`:
 
 ```{r}
-library(woofactors)
+library(Woofactors)
 a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 ```
