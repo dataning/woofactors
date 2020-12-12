@@ -14,7 +14,7 @@ Factors are a very useful type of variable in R, but they can also be very aggra
   You can install woofactors like so:
 
 ``` r
-  devtools::install_github("jennybc/woofactors")
+devtools::install_github("dataning/woofactors")
 ```
   
 ## Quick demo
@@ -22,7 +22,7 @@ Factors are a very useful type of variable in R, but they can also be very aggra
 Binding two factors via `fbind()`:
 
 ```{r}
-  library(woofactors)
+library(woofactors)
 a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 ```
