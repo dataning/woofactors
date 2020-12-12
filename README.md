@@ -1,17 +1,8 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 **NOTE: This is a toy package created for expository purposes, for the second edition of [R Packages](https://r-pkgs.org). It is not meant to actually be useful. If you want a package for factor handling, please see [forcats](https://forcats.tidyverse.org).**
 
-# foofactors    
+  # woofactors    
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -20,10 +11,10 @@ Factors are a very useful type of variable in R, but they can also be very aggra
 
 ## Installation
 
-You can install foofactors like so:
+  You can install woofactors like so:
 
 ``` r
-devtools::install_github("jennybc/foofactors")
+  devtools::install_github("jennybc/woofactors")
 ```
   
 ## Quick demo
@@ -31,7 +22,7 @@ devtools::install_github("jennybc/foofactors")
 Binding two factors via `fbind()`:
 
 ```{r}
-library(foofactors)
+  library(woofactors)
 a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 ```
